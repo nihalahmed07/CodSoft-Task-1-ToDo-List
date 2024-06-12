@@ -1,6 +1,6 @@
 # My Awesome TodoList Android App
 
-![Logo](link_to_logo_image)
+![Logo](app/src/main/ic_launcher-playstore.png)
 
 A brief description of what your app does. This could be a few sentences or a short paragraph.
 
