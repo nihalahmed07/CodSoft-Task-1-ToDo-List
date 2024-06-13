@@ -76,7 +76,7 @@ Contributions are welcome! If you would like to contribute to this project, plea
 
 ## Contact
 
-Your Name - [n.nihalahmed1@gmail.com](mailto:n.nihalahmed1@gmail.com)
+Nihal Ahmed - [n.nihalahmed1@gmail.com](mailto:n.nihalahmed1@gmail.com)
 
 Connect with me on LinkedIn: [Nihal Ahmed N](https://www.linkedin.com/in/nihalahmed07)
 
