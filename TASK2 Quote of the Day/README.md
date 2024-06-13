@@ -43,7 +43,7 @@ Include some screenshots of your app to give users a visual idea of what your ap
 
 1. Clone the repository:
     ```bash
-    git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/nihalahmed07/CODSOFT-TASK-SUBMISSION.git)
+    git clone [https://github.com/nihalahmed07/CODSOFT-TASK-SUBMISSION.git](https://github.com/nihalahmed07/CODSOFT-TASK-SUBMISSION.git)
     ```
 2. Open the project in Android Studio.
 3. Let Android Studio install any required dependencies.
