@@ -1,8 +1,8 @@
-# My Awesome Android App
+# Quote of the Day App
 
-![Logo](link_to_logo_image)
+<img src="app/src/main/playstore-icon.png" alt="Logo" width="150" height="150">
 
-A brief description of what your app does. This could be a few sentences or a short paragraph.
+The Quote of the Day App provides daily inspiring quotes to motivate and uplift users. Each day, a new quote is displayed, offering wisdom and insight to brighten your day.
 
 ## Table of Contents
 
@@ -11,14 +11,16 @@ A brief description of what your app does. This could be a few sentences or a sh
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
+- [Demo](#demo)
 
 ## Features
 
-- Feature 1: Brief description of feature 1
-- Feature 2: Brief description of feature 2
-- Feature 3: Brief description of feature 3
+- **Home Screen**: Display a random inspiring quote or message of the day.
+- **Quote Refresh**: Automatically update the quote daily or on app launch.
+- **Share Quote**: Allow users to share the current quote with others via messaging or social media.
+- **Favorite Quotes**: Provide an option for users to save and view their favorite quotes.
+- **User Interface**: Design an attractive and user-friendly interface.
 
 ## Screenshots
 
@@ -47,11 +49,14 @@ Include some screenshots of your app to give users a visual idea of what your ap
 
 ## Usage
 
-Describe how to use your app. You can include instructions on navigating through the app, as well as any other relevant information.
+1. Open the app to view the quote of the day.
+2. Swipe left or right to browse through past quotes.
+3. Tap the star icon to save a quote to your favorites.
+4. Use the share button to share quotes on social media.
 
 ## Contributing
 
-Contributions are welcome! If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
+Contributions are welcome! If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcomed.
 
 1. Fork the repository.
 2. Create a new branch:
@@ -69,13 +74,12 @@ Contributions are welcome! If you'd like to contribute, please fork the reposito
     ```
 6. Create a new pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
-Your Name - [your.email@example.com](mailto:your.email@example.com)
+Nihal Ahmed - [n.nihalahmed1@gmail.com](mailto:n.nihalahmed1@gmail.com)
 
-Project Link: [https://github.com/yourusername/your-repo-name](https://github.com/yourusername/your-repo-name)
+Project Link: [https://github.com/nihalahmed07/Task2 Quote of the Day]([https://github.com/yourusername/your-repo-name](https://github.com/nihalahmed07/CODSOFT-TASK-SUBMISSION/tree/main/TASK2%20Quote%20of%20the%20Day))
 
+## Demo
+
+Check out a video demo of the application on YouTube: [Click here for demo](https://www.youtube.com/link_to_your_demo)
