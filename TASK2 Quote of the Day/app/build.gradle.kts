@@ -23,7 +23,7 @@ android {
     defaultConfig {
         applicationId = "com.alphax.quotesapp"
         minSdk = 23
-        targetSdk = 32
+        targetSdk = 31
         versionCode = 4
         versionName = "2.1.1"
 
@@ -59,8 +59,6 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.5.1")
     implementation("com.google.android.material:material:1.6.1")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
-    implementation(libs.androidx.foundation.android)
-    implementation(libs.androidx.material3.android)
     testImplementation("junit:junit:4.13.2")
     implementation("com.google.code.gson:gson:2.9.0")
     androidTestImplementation("androidx.test.ext:junit:1.1.3")
