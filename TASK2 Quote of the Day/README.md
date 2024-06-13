@@ -20,7 +20,7 @@ The Quote of the Day App provides daily inspiring quotes to motivate and uplift 
 - **Quote Refresh**: Automatically update the quote daily or on app launch.
 - **Share Quote**: Allow users to share the current quote with others via messaging or social media.
 - **Favorite Quotes**: Provide an option for users to save and view their favorite quotes.
-- **User Interface**: Design an attractive and user-friendly interface.
+- **User Interface**: Attractive and user-friendly interface.
 
 ## Screenshots
 
@@ -43,9 +43,7 @@ Include some screenshots of your app to give users a visual idea of what your ap
 
 1. Clone the repository:
     ```bash
-    git clone  [https://github.com/nihalahmed07/CODSOFT-TASK-SUBMISSION.git](https://github.com/nihalahmed07/CODSOFT-TASK-SUBMISSION.git)
-
-    [Click here for demo](https://www.youtube.com/link_to_quote_of_the_day_demo)
+    git clone https://github.com/nihalahmed07/CODSOFT-TASK-SUBMISSION.git
 
     ```
 2. Open the project in Android Studio.
@@ -55,8 +53,8 @@ Include some screenshots of your app to give users a visual idea of what your ap
 ## Usage
 
 1. Open the app to view the quote of the day.
-2. Swipe left or right to browse through past quotes.
-3. Tap the star icon to save a quote to your favorites.
+2. Swipe left browse new quotes.
+3. Tap the bookmark icon to save a quote to your favorites.
 4. Use the share button to share quotes on social media.
 
 ## Contributing
@@ -87,4 +85,4 @@ Project Link: [https://github.com/nihalahmed07/Task2 Quote of the Day](https://g
 
 ## Demo
 
-Check out a video demo of the application on YouTube: [Click here for demo](https://www.youtube.com/link_to_your_demo)
+Check out a video demo of the application on YouTube: [Click here for demo](https://youtube.com/shorts/Zuel9pAEvjI?feature=share)
