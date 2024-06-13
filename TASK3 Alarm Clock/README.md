@@ -1,59 +1,21 @@
-# Android App Development Internship
+# Alarm Clock App
 
-Welcome to my Android App Development internship project repository. Here, I have completed three tasks as part of the internship program, each showcasing different Android development skills. Each task includes a video demo hosted on YouTube.
+<img src="path_to_your_logo_image.png" alt="Logo" width="150" height="150">
+
+The Alarm Clock App is designed to help users set and manage alarms with ease. This app features an intuitive interface and includes all the functionalities needed for effective alarm management.
 
 ## Table of Contents
 
-- [Tasks Overview](#tasks-overview)
-- [Task 1: To-Do List App](#task-1-to-do-list-app)
-- [Task 2: Quote of the Day App](#task-2-quote-of-the-day-app)
-- [Task 3: Alarm Clock App](#task-3-alarm-clock-app)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Installation](#installation)
+- [Firebase Setup](#firebase-setup)
+- [Usage](#usage)
 - [Contributing](#contributing)
 - [Contact](#contact)
+- [Demo](#demo)
 
-## Tasks Overview
-
-For the successful completion of the Android App Development internship, I completed the following tasks:
-
-1. **To-Do List App**: A simple to-do list app to manage tasks.
-2. **Quote of the Day App**: An app that displays an inspiring quote each day.
-3. **Alarm Clock App**: An alarm clock app to set and manage alarms.
-
-Each task includes its own set of features and functionalities, as detailed below.
-
-## Task 1: To-Do List App
-
-### Features
-
-- **Home Screen**: Display a list of tasks with titles and completion status.
-- **Task Creation**: Allow users to add new tasks with titles and optional descriptions.
-- **Task Editing**: Provide the ability to edit task titles and descriptions.
-- **Task Completion**: Allow users to mark tasks as completed or active.
-- **Task Deletion**: Add the option to delete tasks from the list.
-- **Local Data Storage**: Save tasks locally on the device for data persistence.
-- **User Interface**: Design an intuitive and user-friendly interface.
-
-### Video Demo
-
-Check out the video demo of the To-Do List App on YouTube: [Click here for demo](https://www.youtube.com/link_to_todo_list_demo)
-
-## Task 2: Quote of the Day App
-
-### Features
-
-- **Home Screen**: Display a random inspiring quote or message of the day.
-- **Quote Refresh**: Automatically update the quote daily or on app launch.
-- **Share Quote**: Allow users to share the current quote with others via messaging or social media.
-- **Favorite Quotes**: Provide an option for users to save and view their favorite quotes.
-- **User Interface**: Design an attractive and user-friendly interface.
-
-### Video Demo
-
-Check out the video demo of the Quote of the Day App on YouTube: [Click here for demo](https://www.youtube.com/link_to_quote_of_the_day_demo)
-
-## Task 3: Alarm Clock App
-
-### Features
+## Features
 
 - **Home Screen**: Display current time and date.
 - **Alarm Setting**: Time picker to set the alarm time.
@@ -62,13 +24,87 @@ Check out the video demo of the Quote of the Day App on YouTube: [Click here for
 - **Snooze and Dismiss**: Snooze or dismiss the alarm when it rings.
 - **User Interface**: User-friendly and visually appealing design.
 
-### Video Demo
+## Screenshots
 
-Check out the video demo of the Alarm Clock App on YouTube: [Click here for demo](https://www.youtube.com/link_to_alarm_clock_demo)
+Include some screenshots of your app to give users a visual idea of what your app looks like.
+
+![Screenshot1](link_to_screenshot1)
+![Screenshot2](link_to_screenshot2)
+![Screenshot3](link_to_screenshot3)
+
+## Installation
+
+### Prerequisites
+
+- Android Studio installed on your machine
+- A device or emulator to run the app
+
+### Steps
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/alarm-clock-app.git
+    ```
+2. Open the project in Android Studio.
+3. Let Android Studio install any required dependencies.
+4. Build and run the app on your device or emulator.
+
+## Firebase Setup
+
+1. Go to the [Firebase Console](https://console.firebase.google.com/) and create a new project.
+2. In your Firebase project, add an Android app and follow the setup steps. You'll need the package name of your Android app.
+3. Download the `google-services.json` file provided by Firebase and place it in your project's `app` directory.
+4. Add the Firebase SDK to your project. Update your `build.gradle` files as follows:
+
+**Project-level `build.gradle` (`build.gradle`)**:
+    ```gradle
+    buildscript {
+        dependencies {
+            classpath 'com.google.gms:google-services:4.3.10'  // Check for the latest version
+        }
+    }
+    ```
+
+**App-level `build.gradle` (`app/build.gradle`)**:
+    ```gradle
+    apply plugin: 'com.android.application'
+    apply plugin: 'com.google.gms.google-services'
+
+    dependencies {
+        // Firebase SDK
+        implementation platform('com.google.firebase:firebase-bom:31.1.1') // Check for the latest version
+        implementation 'com.google.firebase:firebase-storage'
+        implementation 'com.google.firebase:firebase-auth'
+        implementation 'com.google.firebase:firebase-database'
+        // Other dependencies
+    }
+    ```
+
+5. Initialize Firebase in your application. Update your `MainActivity.java` or `MainActivity.kt`:
+    ```java
+    import com.google.firebase.FirebaseApp;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        FirebaseApp.initializeApp(this);
+        // Other initialization code
+    }
+    ```
+
+## Usage
+
+1. Open the app to view the current time and date.
+2. Tap the "Add Alarm" button to set a new alarm.
+3. Use the time picker to choose the alarm time.
+4. Select the alarm tone from the available options.
+5. Save the alarm to see it listed on the home screen.
+6. Toggle alarms on or off as needed.
+7. When an alarm rings, choose to snooze or dismiss it.
 
 ## Contributing
 
-Contributions are welcome! If you would like to contribute to this project, please fork the repository and use a feature branch. Pull requests are warmly welcomed.
+Contributions are welcome! If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcomed.
 
 1. Fork the repository.
 2. Create a new branch:
@@ -90,12 +126,8 @@ Contributions are welcome! If you would like to contribute to this project, plea
 
 Your Name - [your.email@example.com](mailto:your.email@example.com)
 
-Connect with me on LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
+Project Link: [https://github.com/yourusername/alarm-clock-app](https://github.com/yourusername/alarm-clock-app)
 
 ## Demo
 
-Check out all the video demos of my projects on YouTube. Don't forget to tag #codsoft, #internship, and #webdevelopment on LinkedIn for more reach and visibility.
-
-1. [To-Do List App Demo](https://www.youtube.com/link_to_todo_list_demo)
-2. [Quote of the Day App Demo](https://www.youtube.com/link_to_quote_of_the_day_demo)
-3. [Alarm Clock App Demo](https://www.youtube.com/link_to_alarm_clock_demo)
+Check out a video demo of the Alarm Clock App on YouTube: [Click here for demo](https://www.youtube.com/link_to_alarm_clock_demo)
