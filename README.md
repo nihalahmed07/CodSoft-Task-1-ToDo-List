@@ -33,10 +33,6 @@ Each task includes its own set of features and functionalities, as detailed belo
 - **Local Data Storage**: Save tasks locally on the device for data persistence.
 - **User Interface**: Design an intuitive and user-friendly interface.
 
-### Video Demo
-
-Check out the video demo of the To-Do List App on YouTube: [Click here for demo](https://www.youtube.com/link_to_todo_list_demo)
-
 ## Task 2: Quote of the Day App
 
 ### Features
@@ -46,10 +42,6 @@ Check out the video demo of the To-Do List App on YouTube: [Click here for demo]
 - **Share Quote**: Allow users to share the current quote with others via messaging or social media.
 - **Favorite Quotes**: Provide an option for users to save and view their favorite quotes.
 - **User Interface**: Design an attractive and user-friendly interface.
-
-### Video Demo
-
-Check out the video demo of the Quote of the Day App on YouTube: [Click here for demo](https://www.youtube.com/link_to_quote_of_the_day_demo)
 
 ## Task 3: Alarm Clock App
 
@@ -61,10 +53,6 @@ Check out the video demo of the Quote of the Day App on YouTube: [Click here for
 - **Alarm Management**: List of all set alarms with on/off toggle.
 - **Snooze and Dismiss**: Snooze or dismiss the alarm when it rings.
 - **User Interface**: User-friendly and visually appealing design.
-
-### Video Demo
-
-Check out the video demo of the Alarm Clock App on YouTube: [Click here for demo](https://www.youtube.com/link_to_alarm_clock_demo)
 
 ## Contributing
 
@@ -88,14 +76,14 @@ Contributions are welcome! If you would like to contribute to this project, plea
 
 ## Contact
 
-Your Name - [your.email@example.com](mailto:your.email@example.com)
+Your Name - [n.nihalahmed1@gmail.com](mailto:n.nihalahmed1@gmail.com)
 
-Connect with me on LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
+Connect with me on LinkedIn: [Nihal Ahmed N](https://www.linkedin.com/in/nihalahmed07)
 
 ## Demo
 
 Check out all the video demos of my projects on YouTube. Don't forget to tag #codsoft, #internship, and #webdevelopment on LinkedIn for more reach and visibility.
 
 1. [To-Do List App Demo](https://www.youtube.com/link_to_todo_list_demo)
-2. [Quote of the Day App Demo](https://www.youtube.com/link_to_quote_of_the_day_demo)
+2. [Quote of the Day App Demo](https://youtube.com/shorts/Zuel9pAEvjI)
 3. [Alarm Clock App Demo](https://www.youtube.com/link_to_alarm_clock_demo)
