@@ -26,9 +26,11 @@ The Quote of the Day App provides daily inspiring quotes to motivate and uplift 
 
 Include some screenshots of your app to give users a visual idea of what your app looks like.
 
-![Screenshot1](link_to_screenshot1)
-![Screenshot2](link_to_screenshot2)
-![Screenshot3](link_to_screenshot3)
+<div>
+    <img src="images/Home.jpg" alt="Home" width="300" height="600">
+    <img src="images/Bookmark.jpg" alt="Home" width="300" height="600">
+    <img src="images/Share.jpg" alt="Home" width="300" height="600">
+</div>
 
 ## Installation
 
@@ -78,7 +80,7 @@ Contributions are welcome! If you'd like to contribute, please fork the reposito
 
 Nihal Ahmed - [n.nihalahmed1@gmail.com](mailto:n.nihalahmed1@gmail.com)
 
-Project Link: [https://github.com/nihalahmed07/Task2 Quote of the Day]([https://github.com/yourusername/your-repo-name](https://github.com/nihalahmed07/CODSOFT-TASK-SUBMISSION/tree/main/TASK2%20Quote%20of%20the%20Day))
+Project Link: [https://github.com/nihalahmed07/Task2 Quote of the Day](https://github.com/nihalahmed07/CODSOFT-TASK-SUBMISSION/tree/main/TASK2%20Quote%20of%20the%20Day)
 
 ## Demo
 
