@@ -24,9 +24,9 @@ The To-Do List App is a simple yet powerful tool to help you manage your tasks e
 - **Task Deletion**: Add the option to delete tasks from the list.
 - **Task Priorities**: Set priorities for tasks.
 - **Due Dates**: Assign due dates to tasks.
-- **Local Data Storage**: Save tasks locally on the device for data persistence.
+- **User Login**: Users can access their todo list data from anywhere just by login their credentials .
 - **Firebase Storage**: Store and retrieve tasks using Firebase Storage for data persistence across devices.
-- **User Interface**: Design an intuitive and user-friendly interface.
+- **User Interface**: intuitive and user-friendly interface.
 
 ## Screenshots
 
@@ -47,7 +47,7 @@ Include some screenshots of your app to give users a visual idea of what your ap
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
+    git clone https://github.com/nihalahmed07/CodSoft-Task-1-ToDo-List.git
     ```
 2. Open the project in Android Studio.
 3. Let Android Studio install any required dependencies.
@@ -127,9 +127,9 @@ Contributions are welcome! If you'd like to contribute, please fork the reposito
 
 ## Contact
 
-Your Name - [your.email@example.com](mailto:your.email@example.com)
+Nihal Ahmed - [n.nihalahmed1@gmail.com](mailto:n.nihalahmed1@gmail.com)
 
-Project Link: [https://github.com/yourusername/your-repo-name](https://github.com/yourusername/your-repo-name)
+Project Link: [To-Do List App](https://github.com/nihalahmed07/CodSoft-Task-1-ToDo-List)
 
 ## Demo
 
