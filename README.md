@@ -1,62 +1,113 @@
-# Android App Development Internship
+# To-Do List App
 
-Welcome to my Android App Development internship project repository. Here, I have completed three tasks as part of the internship program, each showcasing different Android development skills. Each task includes a video demo hosted on YouTube.
+<img src="app/src/main/ic_launcher-playstore.png" alt="Logo" width="150" height="150">
+
+The To-Do List App is a simple yet powerful tool to help you manage your tasks efficiently. It allows users to add, edit, and delete tasks, as well as set priorities and due dates, and mark tasks as completed. Firebase Storage is used to store and retrieve tasks for data persistence.
 
 ## Table of Contents
 
-- [Tasks Overview](#tasks-overview)
-- [Task 1: To-Do List App](#task-1-to-do-list-app)
-- [Task 2: Quote of the Day App](#task-2-quote-of-the-day-app)
-- [Task 3: Alarm Clock App](#task-3-alarm-clock-app)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Installation](#installation)
+- [Firebase Setup](#firebase-setup)
+- [Usage](#usage)
 - [Contributing](#contributing)
 - [Contact](#contact)
+- [Demo](#demo)
 
-## Tasks Overview
-
-For the successful completion of the Android App Development internship, I completed the following tasks:
-
-1. **To-Do List App**: A simple to-do list app to manage tasks.
-2. **Quote of the Day App**: An app that displays an inspiring quote each day.
-3. **Alarm Clock App**: An alarm clock app to set and manage alarms.
-
-Each task includes its own set of features and functionalities, as detailed below.
-
-## Task 1: To-Do List App
-
-### Features
+## Features
 
 - **Home Screen**: Display a list of tasks with titles and completion status.
 - **Task Creation**: Allow users to add new tasks with titles and optional descriptions.
 - **Task Editing**: Provide the ability to edit task titles and descriptions.
 - **Task Completion**: Allow users to mark tasks as completed or active.
 - **Task Deletion**: Add the option to delete tasks from the list.
+- **Task Priorities**: Set priorities for tasks.
+- **Due Dates**: Assign due dates to tasks.
 - **Local Data Storage**: Save tasks locally on the device for data persistence.
+- **Firebase Storage**: Store and retrieve tasks using Firebase Storage for data persistence across devices.
 - **User Interface**: Design an intuitive and user-friendly interface.
 
-## Task 2: Quote of the Day App
+## Screenshots
 
-### Features
+Include some screenshots of your app to give users a visual idea of what your app looks like.
 
-- **Home Screen**: Display a random inspiring quote or message of the day.
-- **Quote Refresh**: Automatically update the quote daily or on app launch.
-- **Share Quote**: Allow users to share the current quote with others via messaging or social media.
-- **Favorite Quotes**: Provide an option for users to save and view their favorite quotes.
-- **User Interface**: Design an attractive and user-friendly interface.
+![Screenshot1](link_to_screenshot1)
+![Screenshot2](link_to_screenshot2)
+![Screenshot3](link_to_screenshot3)
 
-## Task 3: Alarm Clock App
+## Installation
 
-### Features
+### Prerequisites
 
-- **Home Screen**: Display current time and date.
-- **Alarm Setting**: Time picker to set the alarm time.
-- **Option to Choose Alarm Tone**: Allow users to select the alarm tone.
-- **Alarm Management**: List of all set alarms with on/off toggle.
-- **Snooze and Dismiss**: Snooze or dismiss the alarm when it rings.
-- **User Interface**: User-friendly and visually appealing design.
+- Android Studio installed on your machine
+- A device or emulator to run the app
+
+### Steps
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/your-repo-name.git
+    ```
+2. Open the project in Android Studio.
+3. Let Android Studio install any required dependencies.
+4. Build and run the app on your device or emulator.
+
+## Firebase Setup
+
+1. Go to the [Firebase Console](https://console.firebase.google.com/) and create a new project.
+2. In your Firebase project, add an Android app and follow the setup steps. You'll need the package name of your Android app.
+3. Download the `google-services.json` file provided by Firebase and place it in your project's `app` directory.
+4. Add the Firebase SDK to your project. Update your `build.gradle` files as follows:
+
+**Project-level `build.gradle` (`build.gradle`)**:
+    ```gradle
+    buildscript {
+        dependencies {
+            classpath 'com.google.gms:google-services:4.3.10'  // Check for the latest version
+        }
+    }
+    ```
+
+**App-level `build.gradle` (`app/build.gradle`)**:
+    ```gradle
+    apply plugin: 'com.android.application'
+    apply plugin: 'com.google.gms.google-services'
+
+    dependencies {
+        // Firebase SDK
+        implementation platform('com.google.firebase:firebase-bom:31.1.1') // Check for the latest version
+        implementation 'com.google.firebase:firebase-storage'
+        implementation 'com.google.firebase:firebase-auth'
+        implementation 'com.google.firebase:firebase-database'
+        // Other dependencies
+    }
+    ```
+
+5. Initialize Firebase in your application. Update your `MainActivity.java` or `MainActivity.kt`:
+    ```java
+    import com.google.firebase.FirebaseApp;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        FirebaseApp.initializeApp(this);
+        // Other initialization code
+    }
+    ```
+
+## Usage
+
+1. Open the app to view your list of tasks.
+2. Tap the "Add Task" button to create a new task.
+3. Fill in the task title and optional description, set priority and due date, then save.
+4. Tap on a task to edit its details.
+5. Swipe left or right on a task to mark it as completed or delete it.
+6. All tasks are saved locally on your device and synced with Firebase Storage for persistence across devices.
 
 ## Contributing
 
-Contributions are welcome! If you would like to contribute to this project, please fork the repository and use a feature branch. Pull requests are warmly welcomed.
+Contributions are welcome! If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcomed.
 
 1. Fork the repository.
 2. Create a new branch:
@@ -76,14 +127,10 @@ Contributions are welcome! If you would like to contribute to this project, plea
 
 ## Contact
 
-Nihal Ahmed - [n.nihalahmed1@gmail.com](mailto:n.nihalahmed1@gmail.com)
+Your Name - [your.email@example.com](mailto:your.email@example.com)
 
-Connect with me on LinkedIn: [Nihal Ahmed N](https://www.linkedin.com/in/nihalahmed07)
+Project Link: [https://github.com/yourusername/your-repo-name](https://github.com/yourusername/your-repo-name)
 
 ## Demo
 
-Check out all the video demos of my projects on YouTube. Don't forget to tag #codsoft, #internship, and #webdevelopment on LinkedIn for more reach and visibility.
-
-1. [To-Do List App Demo](https://www.youtube.com/link_to_todo_list_demo)
-2. [Quote of the Day App Demo](https://youtube.com/shorts/Zuel9pAEvjI)
-3. [Alarm Clock App Demo](https://www.youtube.com/link_to_alarm_clock_demo)
+Check out a video demo of the application on YouTube: [Click here for demo](https://www.youtube.com/link_to_your_demo)
