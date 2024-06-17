@@ -32,9 +32,10 @@ The To-Do List App is a simple yet powerful tool to help you manage your tasks e
 
 Include some screenshots of your app to give users a visual idea of what your app looks like.
 
-![Screenshot1](link_to_screenshot1)
-![Screenshot2](link_to_screenshot2)
-![Screenshot3](link_to_screenshot3)
+<img src="images/splash.jpg" alt="Main" width="290" height="550">
+<img src="images/sign-in.jpg" alt="Sign-in" width="290" height="550">
+<img src="images/sign-up.jpg" alt="Sign-up" width="290" height="550">
+<img src="images/task.jpg" alt="Task" width="290" height="550">
 
 ## Installation
 
