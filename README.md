@@ -134,4 +134,4 @@ Project Link: [To-Do List App](https://github.com/nihalahmed07/CodSoft-Task-1-To
 
 ## Demo
 
-Check out a video demo of the application on YouTube: [Click here for demo](https://youtu.be/2Zae_kcIy9g)
+Check out a video demo of the application on YouTube: [Click here for demo video](https://youtu.be/2Zae_kcIy9g)
